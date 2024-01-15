@@ -1,0 +1,28 @@
+{
+    "name": "khooz/polyline",
+    "description": "Encoding and decoding a series of lattitudes and longitudes into Google's Polyline format",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Khooz\\Polyline\\": "src/",
+            "Khooz\\Polyline\\Test\\": "test/"
+        }
+    },
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Mustafa Talaeezadeh Khouzani",
+            "email": "8382714+khooz@users.noreply.github.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "." 
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
